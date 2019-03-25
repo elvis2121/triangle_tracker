@@ -64,3 +64,20 @@ p{font-size: 20px;
 .flexbox4 img{margin-left: 150px;
               width: 30%;  
 }
+
+
+.triangle_form{border: 10px solid red;
+              width: 50%;
+              margin-left: 300px;
+              padding: 50px;  
+}
+
+.triangle_form input{padding: 5px;
+                     margin: 10px;  
+}
+
+.triangle_form button{padding: 10px;
+                      width: 40%;
+                      margin-left: 105px;
+                      margin-top: 20px; 
+}
