@@ -41,3 +41,26 @@ p{font-size: 20px;
 .flexbox2 img{margin-left: 150px;
               width: 30%;  
 }
+
+.flex_container2{display: flex;
+  flex-direction: row;  
+}
+
+.flexbox3{width: 50%;
+          background-color: pink;
+          border: 5px solid black;
+          margin-right: 10px;  
+}
+
+.flexbox3 img{margin-left: 150px;
+              width: 30%;  
+}
+
+.flexbox4{width: 50%;
+          background-color: purple;
+          border: 5px solid black;  
+}
+
+.flexbox4 img{margin-left: 150px;
+              width: 30%;  
+}
