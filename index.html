@@ -2,9 +2,63 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="triangle.css">
     <title>TRIANGLE TRACKER</title>
   </head>
   <body>
+      <!-- the title and description of page -->    
+    <h1>TRIANGLE TRACKER</h1>
+    <p>This application determines whether 3 dimensions input by the user can form either:
+       <strong>equilateral, isosceles, scalene or no triangle.</strong> </p>
+     
+     <!-- flexbox element setup -->   
+    <div class="flex_container">
+      <div class="flexbox1">
+        <h3>EQUILATERAL TRIANGLE</h3>
+        <img src="equilateral.png">        
+       </div>
+       
+       <div class="flexbox2">
+         <h3>ISOSCELES TRIANGLE</h3>
+         <img src="isosceles.png">        
+       </div>      
+     </div>
+     
+     <div class="flex_container2">
+      <div class="flexbox3">
+        <h3>SCALENE TRIANGLE</h3>
+        <img src="scalene.png">        
+      </div>
+      
+      <div class="flexbox4">
+        <h3>RIGHT ANGLE TRIANGLE</h3>
+        <img src="right_angle.png">        
+      </div>      
+    </div>
+    
+    <!--form element to capture user input -->
+    
+    <form class="triangle_form">
+      <label for="Base">Base:</label>
+      <input type="text" min="1" name="base" id="base" placeholder="base" required><br>
+      
+      <label for="height">Height:</label>
+      <input type="text" min="1" name="height" id="height" placeholder="height" required><br>
+      
+      <label for="hypotenuse">hypotenuse:</label>
+      <input type="text" min="1" name="hypotenuse" id="hypotenuse" placeholder="hypotenuse" required><br>
+      
+      <button type="button" name="button" id ="calculate" onclick="triangle()">CALCULATE</button>
+      <button type="reset" name="reset_button">Reset</button>      
+    </form>           
+       
     
   </body>
+  <!-- page footer -->  
+  <footer class="main_footer">
+    <h1>TRIANGLE TRACKER COPYRIGHT 2019</h1>  
+  </footer>
+  
+  <script src="triangle.js" charset="utf-8"></script>  
+  
 </html>

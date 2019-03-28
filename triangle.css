@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body{background-image: url(background.jpg);}
+
+h1{text-align: center;
+   font-size: 35px;
+   font-style: italic;
+   font-weight: bold;   
+}
+
+p{font-size: 20px;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.flex_container{display: flex;
+                flex-direction: row;                
+}
+
+.flexbox1{width: 50%;
+          background-color: red;
+          border: 5px solid black;
+          margin-right: 10px; 
+}
+
+.flexbox1 img{margin-left: 150px;
+              width: 30%;
+              margin-top: 50px;  
+}
+
+.flexbox2{width: 50%;
+          background-color: blue;
+          border: 5px solid black;
+}
+
+.flexbox2 img{margin-left: 150px;
+              width: 30%;  
+}
+
+.flex_container2{display: flex;
+  flex-direction: row;  
+}
+
+.flexbox3{width: 50%;
+          background-color: pink;
+          border: 5px solid black;
+          margin-right: 10px;  
+}
+
+.flexbox3 img{margin-left: 150px;
+              width: 30%;  
+}
+
+.flexbox4{width: 50%;
+          background-color: purple;
+          border: 5px solid black;  
+}
+
+.flexbox4 img{margin-left: 150px;
+              width: 30%;  
+}
+
+
+.triangle_form{border: 10px solid red;
+              width: 50%;
+              margin-left: 300px;
+              padding: 50px;  
+}
+
+.triangle_form input{padding: 5px;
+                     margin: 10px;  
+}
+
+.triangle_form button{padding: 10px;
+                      width: 40%;
+                      margin-left: 105px;
+                      margin-top: 20px; 
+}
+.main_footer{
+  background-color: orange;
+  padding: 30px;
+}
+
+.main_footer h1{text-align: center;}
